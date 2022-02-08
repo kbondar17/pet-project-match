@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "db create",
+            "type": "python",
+            "request": "launch",
+            "module": "db.models",
+            "args": [
+                "create"
+            ]
+        },
+        {
+            "name": "db reset",
+            "type": "python",
+            "request": "launch",
+            "module": "db",
+            "args": [
+                "reset"
+            ]
+        },
+        {
+            "name": "users",
+            "type": "python",
+            "request": "launch",
+            "module": "db.users",
+        },
+        {
+            "name": "db funs",
+            "type": "python",
+            "request": "launch",
+            "module": "db.db_funs",
+        },
+        {
+            "name": "go bot",
+            "type": "python",
+            "request": "launch",
+            "module": "bot",
+        },
+        {
+            "name": "ya disk",
+            "type": "python",
+            "request": "launch",
+            "module": "photos.yandex_disk",
+        },
+        {
+            "name": "cache",
+            "type": "python",
+            "request": "launch",
+            "module": "photos.cache_updater",
+        },
+    ]
+}
